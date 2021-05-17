@@ -1,0 +1,165 @@
+body {
+	/* modification de la page HTML" */
+	max-width: 1000px; /*  Largeur maximale */
+	margin: auto; /*  Permet de définir la valeur des 4 marges (top - right - bottom - left) */
+	font-family: sans-serif; /*  Famille de police */
+}
+
+.logo {
+	/* alinéa de 20 pixels pour l'image du logo HELBAK */
+	padding: 20px; /* Permet de définir la valeur des 4 paddings (top - right - bottom - left) */
+}
+
+
+.bouton-menu {
+	/* modification du texte "Menu" */
+	display: block; /* Mode d'affichage (affiché en block) */
+	top: 0px; /* Position à partir du haut  */
+	color: black; /* Couleur de "Menu" */
+	right: 570px; /* Position à partir de la droite */
+	padding: 20px;
+	background-color: #F9F9F9; /*  Couleur d'arrière-plan (gris trés clair) */
+	text-align: center; /* Alignement central */
+	position: absolute; /*  Positionnement absolu, mesuré à partir du bord de l'élément */
+}
+
+.bouton-dkk{
+	/* modification du texte "DKK" */
+	display: block;
+	top: 0px;
+	color: black;
+	right: 498px;
+	padding: 20px;
+	background-color: #F4F4F4; /* Couleur gris clair */
+	text-align: center;
+	position: absolute;
+}
+
+.bouton-panier {
+	/* modification du texte "Panier" */
+	display: block;
+	padding: 20px;
+	top: 0px;
+	right: 412px;
+	color: black;
+	background-color: #EDEDED; /* Couleur noir clair */
+	text-align: center;
+	position: absolute;
+}
+
+.premier {
+	/* modification du bloc "Butter Boxes" */
+	display: block;
+	background-color: #DBEAD8;
+	position: absolute;
+	top: 50px;
+}
+
+.deuxieme {
+	/* modification du bloc "Cups" */
+	display: block;
+	background-color: #C2D4D8;
+	position:absolute;
+	right:412px;
+	top:50px;
+}
+
+.troisieme {
+	/* modification du bloc "Pitchers" */
+	display: block;
+	background-color: #B0ABC3;
+	position: absolute;
+	top:400px;
+}
+
+.quatrieme {
+	/* modification du bloc "Jars" */
+	display: block;
+	background-color: #DBEAD8; /* Couleur vert clair */
+	position: absolute;
+	top:400px;
+	right:412px;
+}
+
+.cinquieme {
+	/* modification du bloc "Bowls" */
+	display: block;
+	background-color: #C2D4D8; /* Couleur bleu clair */
+	position: absolute;
+	top:750px;
+}
+
+.sixieme {
+	/* modification du bloc "Vases" */
+	display: block;
+	background-color: #B0ABC3; /* Couleur violet */
+	position: absolute;
+	top:750px;
+	right:412px;
+}
+
+h2 {
+	/* modification des textes "Butter Boxes", "Cups", etc */
+	color:white;
+	text-indent: 25px; /* Alinéa */
+}
+
+.paiement ul {
+	/* modification des blocs "Dankort", "Visa", etc */
+	display: inline-block;
+	margin: 0 1em;
+}
+
+.paiement li {
+	/* modification des textes "Dankort", "Visa", etc */
+	color: white; /* Couleur blanche */
+	background-color: black; /* Couleur d'arrière-plan en noir */
+	border-radius: .5em; /* Création de coins arrondis */
+	font-size: .9em;
+	padding: .2em;
+}
+
+.paiement h3 {
+	/* modification du texte "Accepted payment methods" */
+	display: inline-block;
+	margin: 0 1em;
+	font-weight: inherit; /* Graisse de police */
+	font-size: inherit;
+}
+
+.pied {
+	/* modification de la classe "pied" */
+	font-size: small; /* Taille de police en petit */
+	display: grid;
+}
+
+.infos, .paiement {
+	/* modification de la classe "paiement" et "infos" */
+	padding: 20px 0;
+}
+
+.infos li, .paiement li {
+	/* modification de la classe li de "paiement" et "infos" */
+	display: inline-block; /* Considéré comme une seule ligne, affiché en block */
+}
+
+.infos {
+	/* modification de la classe "pied" */
+	text-align: center;
+}
+
+.infos li {
+	/* modification des textes "Newsletter", etc */
+	margin: 0 1em;
+}
+
+.infos a {
+	/* modification des textes "Newsletter", etc */
+	color: black; /* Couleur noire */
+	text-decoration: none; /* Aucune décoration de texte */
+}
+
+.paiement {
+	/* modification de la classe "paiement" */
+	text-align: right; /* Alignement à droite */
+}

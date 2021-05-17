@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Portfolio BALZAN Samuel | Connexion</title>
+        <link rel="stylesheet" href="./css/normalize.css">
+        <link rel="stylesheet" href="./css/foundation.css">
+        <link rel="stylesheet" href="./css/gsb.css">
+    </head>
+    <body>
+        <nav class="header">
+            <nav class="row">
+                <nav class="large-9 columns"><h2 class="right">BALZAN Samuel | Mon Portfolio</h2></nav>
+            </nav>
+        </nav>
+        <nav id="fondNav">
+        <nav class="row">
+		<nav class="large-12 columns">
+        <nav class="top-bar-section">
+        </nav>
+        </nav>
+		</nav>
+         </nav>
+        <header id="header" class="row">
+            <div class="large-12 columns">
+            </div>
+        </header>
+        <div id="contenu">
+        <div class="row">
+        <div class="large-4 columns">
+            <div class="row">
+			<script>
+			function passWord() {
+			var testV = 1;
+			var pass1 = prompt('Veuillez entrer le mot de passe',' ');
+			
+			while (testV < 3) {
+				if (!pass1) history.go(-1);
+				if (pass1.toLowerCase() == "enucleation") {
+					alert('Mot de passe valide !'); window.open('index.html');
+					break ;
+					}
+				testV+=1;
+				var pass1 = prompt('ERREUR : Mot de passe incorrect. Veuillez réessayer.','Mot de passe');
+				}
+			if (pass1.toLowerCase()!="enucleation" & testV ==3) history.go(-1); return " ";
+			}
+			</SCRIPT>
+			<CENTER>
+			<FORM>
+			<input type="button" value="Rentrez ici le mot de passe pour accéder au contenu du portfolio" onClick="passWord()"
+			</FORM>
+			</CENTER>
+			</p>
+			</form>
+            </div>
+        </div>
+		</div>
+        </div>
+		
+        <footer>
+        
+        </footer>
+        </body>
+        </html>
